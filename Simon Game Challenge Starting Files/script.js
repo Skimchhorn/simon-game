@@ -45,6 +45,9 @@ function checkAnwser(currentColor){
   else{
     wrongClick()
     $("h1").text("Gameover, Press key to restart");
+    start = false;
+    h = 0;
+    arrColor = [];
   }
 }
 
